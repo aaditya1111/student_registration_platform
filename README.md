@@ -56,7 +56,7 @@ Features of this app required in assignment:
 
 ##API Endpoints for Student CRUD & AUthentication(Login & Logout)
 
-* POST - localhost:3000/api/v1/students - Student Create API - Mobile & email are unique and indexed
+* POST -  http://localhost:3000/api/v1/students - Student Create API - Mobile & email are unique and indexed
 No Auth Token required
 
 Request body:
@@ -129,7 +129,7 @@ Response Body:
     "message": "Student is Logged out successfully"
 }
 
-* GET - localhost:3000/api/v1/students - All Students List API
+* GET - http://localhost:3000/api/v1/students - All Students List API
 No Auth Token required
 
 Request Body:
@@ -183,7 +183,7 @@ Response body:
     ]
 }
 
-* GET - localhost:3000/api/v1/students/student_id - GET Sudent By Id API
+* GET - http://localhost:3000/api/v1/students/student_id - GET Sudent By Id API
 Auth Token Required
 
 Request Body:
@@ -208,7 +208,7 @@ Response Body:
     }
 }
 
-* PUT - localhost:3000/api/v1/students/student_id - Update student API
+* PUT - http://localhost:3000/api/v1/students/student_id - Update student API
 Auth Token Required
 
 Request Body:
@@ -235,7 +235,7 @@ Response Body:
     }
 }
 
-* DELETE - localhost:3000/api/v1/students/student_id - Delete student API
+* DELETE - http://localhost:3000/api/v1/students/student_id - Delete student API
 Auth Token Required
 
 Request Body:
