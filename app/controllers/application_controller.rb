@@ -17,6 +17,7 @@ class ApplicationController < ActionController::API
     authenticate_token || render_unauthorized
   end
 
+#validating the token entered by user
   def authenticate_token
     if request.headers["Authorization"].present?
       @token = request.headers["Authorization"].split(" ").last
